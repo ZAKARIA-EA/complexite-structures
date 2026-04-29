@@ -1,0 +1,188 @@
+#  Compte rendu
+
+## Travaux Dirigés : Complexité et Structures de Données
+
+Filière : IDRS
+Zakariae El Mardi Alaoui
+
+---
+
+ TD1 : Les structures
+
+# Exercice 1 : Manipulation des points
+
+Dans cet exercice, nous avons défini une structure `Point` contenant deux coordonnées entières (abs, ord).
+
+ Travail réalisé :
+
+* Création d’une structure `Point`
+* Saisie et affichage d’un point
+* Calcul de la distance par rapport à l’origine
+* Utilisation de tableaux statiques et dynamiques
+* Tri des points selon leur distance
+
+ Résultat :
+
+Le programme permet de :
+
+* stocker plusieurs points,
+* les afficher,
+* les trier selon leur distance.
+
+ Complexité :
+
+Le tri utilisé est de type **tri par comparaison** :
+ Complexité : O(n²)
+
+---
+
+# Exercice 2 : Structure Heure
+
+Nous avons défini une structure `Heure` pour représenter le temps.
+
+ Fonctions réalisées :
+
+* Conversion Heure → secondes
+* Conversion secondes → Heure
+* Addition de deux heures
+
+# Conclusion :
+
+Cet exercice montre l’intérêt de transformer des structures en valeurs simples pour faciliter les calculs.
+
+---
+
+ TD2 : Complexité et récursivité
+
+# Exercice 1 : Recherche du minimum
+
+On cherche l’indice de la première occurrence du minimum dans un tableau.
+
+ Complexité : **O(n)**
+
+---
+
+# Exercice 2 : MiniMax
+
+On calcule le minimum des maximums des lignes d’une matrice.
+
+ Complexité : O(n × m)
+
+---
+
+# Exercice 3 : Récursivité
+
+ Fonctions :
+
+* Puissance simple → O(n)
+* Puissance rapide → O(log n)
+
+ Conclusion :
+
+L’exponentiation rapide est beaucoup plus efficace.
+
+---
+
+# Exercice 4 : Analyse de fonctions
+
+* rec1(n) calcule : 2ⁿ avec complexité O(n)
+* rec2(n) calcule : 2ⁿ mais avec complexité O(2ⁿ)
+
+ Conclusion : deux fonctions peuvent donner le même résultat avec des performances très différentes.
+
+---
+
+ TD3 : Listes, piles et files
+
+# Listes chaînées
+
+ Fonctions réalisées :
+
+* Insertion en tête
+* Recherche d’un élément
+* Suppression du minimum
+* Fusion de listes
+* Destruction de liste
+
+ Complexité :
+
+* Insertion : O(1)
+* Recherche : O(n)
+
+---
+
+# Piles (Stack)
+
+ Opérations :
+
+* push (empiler)
+* pop (dépiler)
+
+ Structure LIFO (Last In First Out)
+
+---
+
+# Files (Queue)
+
+ Opérations :
+
+* enqueue (enfiler)
+* dequeue (défiler)
+
+ Structure FIFO (First In First Out)
+
+---
+
+# Application : Palindrome
+
+Un algorithme utilisant une pile et une file permet de vérifier si une chaîne est un palindrome.
+
+---
+
+ TD4 : Arbres binaires de recherche (ABR)
+
+ Opérations principales :
+
+* Insertion
+* Recherche
+* Parcours infixe
+* Comptage d’occurrences
+* Conversion arbre → liste
+* Tri via ABR
+
+---
+
+ Complexité :
+
+* Cas moyen : O(log n)
+* Pire cas : O(n)
+
+---
+
+# Exercice 2 : Vérification ABR
+
+On vérifie si un arbre respecte la propriété d’un ABR.
+
+---
+
+# Exercice 3 : Minimum
+
+Le plus petit élément se trouve à gauche de l’arbre.
+
+ Complexité : O(h)
+
+---
+
+ Conclusion générale
+
+Ces travaux dirigés ont permis de :
+
+* Comprendre les structures de données fondamentales
+* Manipuler des structures dynamiques en C
+* Analyser la complexité des algorithmes
+* Comparer différentes approches (itérative vs récursive)
+
+
+---
+
+
